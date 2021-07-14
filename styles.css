@@ -7,7 +7,7 @@ header{
     text-align: center;
     background-image: url('./images/image2.jpg');
     background-size: cover;
-    width: auto;
+    width: 99%;
     height: 25em;
     margin: 1em auto 1em auto;
     border-radius: 2em;
@@ -57,6 +57,7 @@ header{
     background-size: cover;
     border-radius: 1.25em;
     padding: .3em;
+    
 }
 
 footer {
