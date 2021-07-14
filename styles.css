@@ -1,1 +1,67 @@
-/* Write your CSS here! */
+body{
+    background-image: url('./images/image1.jpg');
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    background-image: url('./images/image2.jpg');
+    background-size: cover;
+    width: auto;
+    height: 25em;
+    margin: 1em auto 1em auto;
+    border-radius: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.one {
+    width: 10em;
+    background: hsl(180, 64%, 44%);
+    border-radius: inherit;
+    
+}
+
+.two{
+    background-color: hsl(0, 50%, 50%);
+    width: 10em;
+    border-radius: inherit;
+}
+
+.three {
+    background: hsl(56, 64%, 44%);
+    width: 10em;
+    border-radius: inherit;
+    
+}
+
+.four {
+    background: hsl(180, 75%, 17%);
+    width: 10em;
+    border-radius: inherit;
+    
+}
+
+.article {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: .33em;
+    font-size: 1.75em;
+    background-image: url('./images/image3.jpg');
+    background-size: cover;
+    border-radius: 1.25em;
+    padding: .3em;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+}
+
