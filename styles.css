@@ -9,14 +9,13 @@ header{
     text-align: center;
     background-image: url('./images/image2.jpg');
     background-size: cover;
-    width: 99%;
     height: 25em;
     margin: 1em auto 1em auto;
-    border-radius: 2em;
+    border-radius: 2em;;
 }
 
 #mainHeading {
-    color: red
+    color: red;
 }
 
 .funParagraph {
@@ -26,34 +25,41 @@ header{
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     border-radius: 2em;
+    margin: 1em;
 }
 
 .one {
-    width: 10em;
+    width: 30em;
+    margin-right:.5em;
     background: hsl(180, 64%, 44%);
     border-radius: inherit;
-    
 }
 
+
+
 .two{
-    background-color: hsl(0, 50%, 50%);
-    width: 10em;
+    background: hsl(32, 83%, 47%);
+    margin-right:.5em;
+    width: 30em;
     border-radius: inherit;
+   
 }
 
 .three {
     background: hsl(56, 64%, 44%);
-    width: 10em;
+    margin-right:.5em;
+    width: 30em;
     border-radius: inherit;
+    
     
 }
 
 .four {
     background: hsl(180, 75%, 17%);
-    width: 10em;
+    width: 30em;
     border-radius: inherit;
     
 }
@@ -79,4 +85,37 @@ footer {
 #articleTitle {
     color: teal;
 }
+
+.jellyfish{
+    width: 20em;
+    border-radius: 4em;
+    box-shadow: rgb(82, 119, 119) 1em 1em 1em 1em;
+}
+
+.mountains{
+    width: 20em;
+    border-radius: 4em;
+    
+    
+}
+
+.mountains:hover{
+    box-shadow: hsl(64, 40%, 33%) 1em 1em 1em 1em;
+}
+
+.dolphins {
+    width: 20em;
+    border-radius: 4em;
+
+}
+
+.coastline{
+    width: 20em;
+    border-radius: 4em;
+    box-shadow: hsl(22, 78%, 19%) 1em 1em 1em 1em;
+}
+
+
+
+
 
