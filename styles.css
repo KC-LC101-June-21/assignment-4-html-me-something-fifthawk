@@ -1,6 +1,8 @@
 body{
     background-image: url('./images/image1.jpg');
     background-size: cover;
+    margin: 8px;
+    display: block;
 }
 
 header{
@@ -11,6 +13,14 @@ header{
     height: 25em;
     margin: 1em auto 1em auto;
     border-radius: 2em;
+}
+
+#mainHeading {
+    color: red
+}
+
+.funParagraph {
+    color: green;
 }
 
 .container {
@@ -64,5 +74,9 @@ footer {
     color: whitesmoke;
     text-align: center;
     font-size: 1em;
+}
+
+#articleTitle {
+    color: teal;
 }
 
