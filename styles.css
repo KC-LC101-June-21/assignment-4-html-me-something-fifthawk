@@ -21,6 +21,7 @@ header{
     color: red;
 }
 
+
 .funParagraph {
     color: green;
 }
@@ -92,23 +93,22 @@ footer {
 .jellyfish{
     width: 20em;
     border-radius: 4em;
-    box-shadow: rgb(82, 119, 119) 1em 1em 1em 1em;
+    box-shadow: hsl(180, 18%, 39%) 1em 1em 1em 1em;
 }
 
 .mountains{
     width: 20em;
     border-radius: 4em;
+    box-shadow: hsl(64, 40%, 33%) 1em 1em 1em 1em;
     
     
 }
 
-.mountains:hover{
-    box-shadow: hsl(64, 40%, 33%) 1em 1em 1em 1em;
-}
 
 .green {
     width: 20em;
     border-radius: 4em;
+    box-shadow: hsl(180, 79%, 9%) 1em 1em 1em 1em;
 
 }
 
