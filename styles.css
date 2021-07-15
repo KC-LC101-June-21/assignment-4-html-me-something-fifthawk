@@ -9,9 +9,12 @@ header{
     text-align: center;
     background-image: url('./images/image2.jpg');
     background-size: cover;
-    height: 25em;
-    margin: 1em auto 1em auto;
-    border-radius: 2em;;
+    height: 20em;
+    margin: auto;
+    border-radius: 10em;
+    margin-bottom: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #mainHeading {
@@ -34,14 +37,14 @@ header{
 .one {
     width: 30em;
     margin-right:.5em;
-    background: hsl(180, 64%, 44%);
+    background: hsl(191, 100%, 88%);
     border-radius: inherit;
 }
 
 
 
 .two{
-    background: hsl(32, 83%, 47%);
+    background: hsl(302, 83%, 88%);
     margin-right:.5em;
     width: 30em;
     border-radius: inherit;
@@ -49,7 +52,7 @@ header{
 }
 
 .three {
-    background: hsl(56, 64%, 44%);
+    background: hsl(64, 87%, 78%);
     margin-right:.5em;
     width: 30em;
     border-radius: inherit;
@@ -103,7 +106,7 @@ footer {
     box-shadow: hsl(64, 40%, 33%) 1em 1em 1em 1em;
 }
 
-.dolphins {
+.green {
     width: 20em;
     border-radius: 4em;
 
@@ -112,7 +115,22 @@ footer {
 .coastline{
     width: 20em;
     border-radius: 4em;
-    box-shadow: hsl(22, 78%, 19%) 1em 1em 1em 1em;
+    box-shadow: hsl(305, 54%, 18%) 1em 1em 1em 1em;
+}
+
+li {
+    display: inline;
+    margin: 1em;
+    color: hsl(0, 100%, 17%);
+    
+}
+
+ul {
+    background-image: url('./images/image8.jpg');
+    background-size: cover;
+    border-radius: 3em;
+    width: 50em;
+    margin: auto;
 }
 
 
