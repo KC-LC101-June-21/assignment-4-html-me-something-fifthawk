@@ -90,13 +90,13 @@ footer {
     color: teal;
 }
 
-.jellyfish{
+.canyon {
     width: 20em;
     border-radius: 4em;
     box-shadow: hsl(180, 18%, 39%) 1em 1em 1em 1em;
 }
 
-.mountains{
+.seattle{
     width: 20em;
     border-radius: 4em;
     box-shadow: hsl(64, 40%, 33%) 1em 1em 1em 1em;
@@ -105,32 +105,29 @@ footer {
 }
 
 
-.green {
+.northern{
     width: 20em;
     border-radius: 4em;
     box-shadow: hsl(180, 79%, 9%) 1em 1em 1em 1em;
 
 }
 
-.coastline{
+.seoul{
     width: 20em;
     border-radius: 4em;
     box-shadow: hsl(305, 54%, 18%) 1em 1em 1em 1em;
 }
 
-li {
-    display: inline;
-    margin: 1em;
-    color: hsl(0, 100%, 17%);
-    
-}
 
-ul {
+.places {
+    display: flex;
+    color: hsl(0, 100%, 17%);
     background-image: url('./images/image8.jpg');
     background-size: cover;
     border-radius: 3em;
-    width: 50em;
     margin: auto;
+    justify-content: center;
+    width: 20em;
 }
 
 
