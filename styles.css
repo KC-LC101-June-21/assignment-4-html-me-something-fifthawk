@@ -5,9 +5,12 @@ body{
     display: block;
 }
 
+
 header{
     text-align: center;
     background-image: url('./images/image2.jpg');
+    animation: zoomInUp;
+    animation-duration: 2s;
     background-size: cover;
     height: 20em;
     margin: auto;
@@ -15,15 +18,28 @@ header{
     margin-bottom: 5em;
     margin-left: 1em;
     margin-right: 1em;
+    box-shadow: hsl(135, 57%, 80%) .5em .25em 5em .25em;
 }
+
 
 #mainHeading {
     color: red;
+    text-align: center;
 }
 
 
 .funParagraph {
     color: green;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1em;
+}
+
+.funParagraph2 {
+    color: rgb(212, 17, 17);
+    justify-content: space-around;
+    text-align: center;
+    padding: 1em;
 }
 
 .container {
@@ -96,13 +112,19 @@ footer {
     box-shadow: hsl(180, 18%, 39%) 1em 1em 1em 1em;
 }
 
+.canyon:hover{
+    animation: hinge;
+    animation-duration: 10s;
+    box-shadow: none;
+}
+
+
 .seattle{
     width: 20em;
     border-radius: 4em;
     box-shadow: hsl(64, 40%, 33%) 1em 1em 1em 1em;
-    
-    
 }
+
 
 
 .northern{
@@ -121,14 +143,23 @@ footer {
 
 .places {
     display: flex;
-    color: hsl(0, 100%, 17%);
+    color: hsl(251, 75%, 36%);
     background-image: url('./images/image8.jpg');
     background-size: cover;
     border-radius: 3em;
     margin: auto;
     justify-content: center;
-    width: 20em;
+    width: 40em;
 }
+
+
+.worldHeader{
+    padding: 4em;
+    color: hsl(314, 87%, 50%);
+}
+
+
+
 
 
 
