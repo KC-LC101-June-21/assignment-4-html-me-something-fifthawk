@@ -1,1 +1,167 @@
-/* Write your CSS here! */
+body{
+    background-image: url('./images/image1.jpg');
+    background-size: cover;
+    margin: 8px;
+    display: block;
+}
+
+
+header{
+    text-align: center;
+    background-image: url('./images/image2.jpg');
+    animation: zoomInUp;
+    animation-duration: 2s;
+    background-size: cover;
+    height: 20em;
+    margin: auto;
+    border-radius: 10em;
+    margin-bottom: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    box-shadow: hsl(135, 57%, 80%) .5em .25em 5em .25em;
+}
+
+
+#mainHeading {
+    color: red;
+    text-align: center;
+}
+
+
+.funParagraph {
+    color: green;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1em;
+}
+
+.funParagraph2 {
+    color: rgb(212, 17, 17);
+    justify-content: space-around;
+    text-align: center;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2em;
+    margin: 1em;
+}
+
+.one {
+    width: 30em;
+    margin-right:.5em;
+    background: hsl(191, 100%, 88%);
+    border-radius: inherit;
+}
+
+
+
+.two{
+    background: hsl(302, 83%, 88%);
+    margin-right:.5em;
+    width: 30em;
+    border-radius: inherit;
+   
+}
+
+.three {
+    background: hsl(64, 87%, 78%);
+    margin-right:.5em;
+    width: 30em;
+    border-radius: inherit;
+    
+    
+}
+
+.four {
+    background: hsl(180, 75%, 17%);
+    width: 30em;
+    border-radius: inherit;
+    
+}
+
+.article {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: .33em;
+    font-size: 1.75em;
+    background-image: url('./images/image3.jpg');
+    background-size: cover;
+    border-radius: 1.25em;
+    padding: .3em;
+    
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1em;
+}
+
+#articleTitle {
+    color: teal;
+}
+
+.canyon {
+    width: 20em;
+    border-radius: 4em;
+    box-shadow: hsl(180, 18%, 39%) 1em 1em 1em 1em;
+}
+
+.canyon:hover{
+    animation: hinge;
+    animation-duration: 10s;
+    box-shadow: none;
+}
+
+
+.seattle{
+    width: 20em;
+    border-radius: 4em;
+    box-shadow: hsl(64, 40%, 33%) 1em 1em 1em 1em;
+}
+
+
+
+.northern{
+    width: 20em;
+    border-radius: 4em;
+    box-shadow: hsl(180, 79%, 9%) 1em 1em 1em 1em;
+
+}
+
+.seoul{
+    width: 20em;
+    border-radius: 4em;
+    box-shadow: hsl(305, 54%, 18%) 1em 1em 1em 1em;
+}
+
+
+.places {
+    display: flex;
+    color: hsl(251, 75%, 36%);
+    background-image: url('./images/image8.jpg');
+    background-size: cover;
+    border-radius: 3em;
+    margin: auto;
+    justify-content: center;
+    width: 40em;
+}
+
+
+.worldHeader{
+    padding: 4em;
+    color: hsl(314, 87%, 50%);
+}
+
+
+
+
+
+
+
+
